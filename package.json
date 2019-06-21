@@ -1,0 +1,22 @@
+{
+  "name": "coinmarketcap-scrapper",
+  "version": "1.0.0",
+  "description": "Scrapper de Página All Cryptocurrencies , salida json",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "keywords": [
+    "scrapper",
+    "coinmarketcap"
+  ],
+  "author": "@chech0x",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.17.1"
+  },
+  "dependencies": {
+    "htmlparser2": "^3.10.1"
+  }
+}
